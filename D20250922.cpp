@@ -11,12 +11,9 @@ int main()
 	}
 
 	int Total3 = 0;
-	for (int i = 1; i <= 100; i++)
+	for (int i = 3; i <= 100; i+=3)
 	{
-		if (i % 3 == 0)
-		{
-			Total3 += i;
-		}
+		Total3 += i;
 	}
 	
 	std::cout << "Total : " << Total << std::endl;
